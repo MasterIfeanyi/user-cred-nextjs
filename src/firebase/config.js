@@ -26,11 +26,10 @@ const auth = getAuth(app);
 
 
 export { 
-    auth, 
-    db,
-    createUserWithEmailAndPassword, 
-    signInWithEmailAndPassword, 
-    updateProfile,
-    onAuthStateChanged,
-    signOut
+  auth, 
+  createUserWithEmailAndPassword, 
+  signInWithEmailAndPassword, 
+  updateProfile,
+  onAuthStateChanged,
+  signOut
 };
